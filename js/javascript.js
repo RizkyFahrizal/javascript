@@ -1,0 +1,2 @@
+alert("Haiiii");
+// prompt("Haiiii");
