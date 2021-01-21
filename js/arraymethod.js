@@ -1,7 +1,7 @@
 //array -> string,num,func,object,campuran.
 let nilai=[
     {nama:"rizal",ipa:82,bahasa:90,mat:74},
-    {nama:"joni",ipa:80,bahasa:70,mat:84},
+    {nama:"joni",ipa:80,bahasa:60,mat:84},
     {nama:"tejo",ipa:76,bahasa:82,mat:90},
     {nama:"jina",ipa:90,bahasa:86,mat:94},
 ];
@@ -42,3 +42,20 @@ let mapel=["ipa","bahasa","mat"];
 // });
 
 // nilai.filter((a) => (a.ipa > 80 && a.mat > 80 ? console.log(a) : null));
+
+//#21
+// let siswa = nilai.map(function (a) {
+//     return a.nama
+// })
+// let siswa = nilai.map(a => [a.nama,a.mat,a.ipa,a.bahasa]);
+// console.log(siswa);
+
+// mapel.sort();
+// console.log(mapel);
+
+// let hasil = nilai.reduce(function (a,b) {
+//   return (a=a+b.ipa)  
+// },0);
+
+let hasil = nilai.reduce((a,b)=>(a+=b.ipa),0 )
+console.log(hasil);

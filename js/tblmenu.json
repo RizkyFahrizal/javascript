@@ -1,0 +1,20 @@
+[
+    {
+            "idmenu":10,
+            "idkategori":33,
+            "menu":"jeruk manis",
+            "harga":5000,
+            "warna":["merah","kuning","hijau"],
+            "stok":true,
+            "keterangan":null
+    },
+    {
+            "idmenu":11,
+            "idkategori":33,
+            "menu":"apel",
+            "harga":4000,
+            "warna":["jingga","hitam","putih"],
+            "stok":true,
+            "keterangan":null
+    }
+]
